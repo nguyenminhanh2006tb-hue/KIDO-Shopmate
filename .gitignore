@@ -1,0 +1,4 @@
+# Khóa API chỉ để trong Streamlit Secrets, không bao giờ đưa lên GitHub
+.streamlit/secrets.toml
+__pycache__/
+.venv/

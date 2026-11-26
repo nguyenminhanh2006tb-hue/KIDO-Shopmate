@@ -1,0 +1,13 @@
+# Giao diện chung. Màu thương hiệu đặt ở MAU_CHU_DAO trong app.py, không phải ở đây.
+[theme]
+base = "light"
+primaryColor = "#17181a"
+backgroundColor = "#f4f4f5"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#17181a"
+font = "Be Vietnam Pro:https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&display=swap, sans-serif"
+headingFontWeights = 600
+baseRadius = "10px"
+
+[client]
+toolbarMode = "minimal"
