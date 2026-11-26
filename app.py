@@ -14,19 +14,28 @@ import streamlit as st
 from google import genai
 
 # ============================ CÀI ĐẶT (sinh viên sửa ở đây) ============================
-TEN_CONG_TY = "StrideFit"
-TEN_BOT = "Stridey"
+TEN_CONG_TY = "KIDO"
+TEN_BOT = "KIDO Shopmate"
 TRANG_THAI = "Trợ lý AI · trả lời trong vài giây"
-LOI_CHAO = "Chào bạn, mình là Stridey, trợ lý AI của StrideFit. Mình giải đáp về đặt hàng, giao hàng, đổi trả và bảo hành."
+LOI_CHAO = """Xin chào Quý khách 👋!!!
+Mình là KIDO Shopmate – trợ lý chăm sóc khách hàng của KIDO. 
+Kido Shopmate có thể hỗ trợ nhanh cho Quý khách 6 nhóm thông tin sau:
+    - Chính sách chiết khấu
+    - Chương trình khuyến mãi hàng tháng
+    - Thông tin sản phẩm (dầu ăn, bánh, snack)
+    - Quy trình đặt hàng
+    - Quy trình đổi trả hàng lỗi/hết hạn
+    - Vận chuyển, giao hàng
+Anh/chị cần hỗ trợ vấn đề gì? Hãy đặt câu hỏi để được giải đáp nhé!"""
 CAU_HOI_GOI_Y = [
-    "Mình có bao lâu để trả hàng?",
-    "Phí giao hàng bao nhiêu?",
-    "Đổi size có mất phí không?",
+   "Chính sách chiết khấu và khuyến mãi của KIDO hiện nay như thế nào?",
+    "Tôi muốn tìm hiểu thông tin sản phẩm và cách đặt hàng.",
+    "Nếu hàng bị lỗi hoặc hết hạn, tôi cần đổi trả như thế nào?"
 ]
 GOI_Y_O_NHAP = "Nhắn tin"
-HOTLINE = "1900 0000"
-MAU_CHU_DAO = "#0F6E5C"  # màu thương hiệu, mã hex; chữ trên bóng chat tự đổi trắng/đen cho dễ đọc
-LOGO = "logo.png"  # tệp ảnh vuông cùng thư mục; nếu không có, ảnh đại diện là chữ cái đầu của công ty
+HOTLINE = "1900 05678"
+MAU_CHU_DAO = "#D71920"  # màu thương hiệu, mã hex; chữ trên bóng chat tự đổi trắng/đen cho dễ đọc
+LOGO = ""  # tệp ảnh vuông cùng thư mục; nếu không có, ảnh đại diện là chữ cái đầu của công ty
 # =====================================================================================
 
 MODEL_MAC_DINH = "gemini-4-hydrogen"  # model trong hướng dẫn nhanh của Google, có gói miễn phí
