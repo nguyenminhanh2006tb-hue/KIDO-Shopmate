@@ -17,9 +17,9 @@ from google import genai
 TEN_CONG_TY = "KIDO"
 TEN_BOT = "KIDO Shopmate"
 TRANG_THAI = "Trợ lý AI · trả lời trong vài giây"
-LOI_CHAO = """Xin chào Quý khách 👋!!!
+LOI_CHAO = """Xin chào anh/chị 👋!!!
 Mình là KIDO Shopmate – trợ lý chăm sóc khách hàng của KIDO. 
-Kido Shopmate có thể hỗ trợ nhanh cho Quý khách 6 nhóm thông tin sau:
+Kido Shopmate có thể hỗ trợ nhanh cho anh/chị 6 nhóm thông tin sau:
     - Chính sách chiết khấu
     - Chương trình khuyến mãi hàng tháng
     - Thông tin sản phẩm (dầu ăn, bánh, snack)
