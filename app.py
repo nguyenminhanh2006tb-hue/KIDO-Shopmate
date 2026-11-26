@@ -17,20 +17,11 @@ from google import genai
 TEN_CONG_TY = "KIDO"
 TEN_BOT = "KIDO Shopmate"
 TRANG_THAI = "Trợ lý AI · trả lời trong vài giây"
-LOI_CHAO = """Xin chào anh/chị 👋!!!
-Mình là KIDO Shopmate – trợ lý chăm sóc khách hàng của KIDO. 
-Kido Shopmate có thể hỗ trợ nhanh cho anh/chị 6 nhóm thông tin sau:
-    - Chính sách chiết khấu
-    - Chương trình khuyến mãi hàng tháng
-    - Thông tin sản phẩm (dầu ăn, bánh, snack)
-    - Quy trình đặt hàng
-    - Quy trình đổi trả hàng lỗi/hết hạn
-    - Vận chuyển, giao hàng
-Anh/chị cần hỗ trợ vấn đề gì? Hãy đặt câu hỏi để được giải đáp nhé!"""
+LOI_CHAO = "Xin chào anh/chị, KIDO Shopmate là trợ lý chăm sóc khách hàng của KIDO, hỗ trợ anh/chị tra cứu chiết khấu, khuyến mãi, sản phẩm, đặt hàng, đổi trả và vận chuyển. Anh/chị cần hỗ trợ vấn đề gì? Hãy đặt câu hỏi để được giải đáp nhé!"
 CAU_HOI_GOI_Y = [
-   "Chính sách chiết khấu và khuyến mãi của KIDO hiện nay như thế nào?",
-    "Tôi muốn tìm hiểu thông tin sản phẩm và cách đặt hàng.",
-    "Nếu hàng bị lỗi hoặc hết hạn, tôi cần đổi trả như thế nào?"
+   "Giá nhập sản phẩm và ưu đãi khi nhập số lượng lớn",
+    "Chính sách giao hàng và điều kiện miễn phí vận chuyển",
+    "Chính sách đổi trả khi hàng bị lỗi hoặc hết hạn"
 ]
 GOI_Y_O_NHAP = "Nhắn tin"
 HOTLINE = "1900 05678"
