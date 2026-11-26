@@ -26,7 +26,7 @@ CAU_HOI_GOI_Y = [
 GOI_Y_O_NHAP = "Nhắn tin"
 HOTLINE = "1900 05678"
 MAU_CHU_DAO = "#D71920"  # màu thương hiệu, mã hex; chữ trên bóng chat tự đổi trắng/đen cho dễ đọc
-LOGO = "images/logo.png"  # tệp ảnh vuông cùng thư mục; nếu không có, ảnh đại diện là chữ cái đầu của công ty
+LOGO = "Linh vật robot KIDO thân thiện.png"  # tệp ảnh vuông cùng thư mục; nếu không có, ảnh đại diện là chữ cái đầu của công ty
 # =====================================================================================
 
 MODEL_MAC_DINH = "gemini-4-hydrogen"  # model trong hướng dẫn nhanh của Google, có gói miễn phí
