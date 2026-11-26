@@ -17,7 +17,7 @@ from google import genai
 TEN_CONG_TY = "KIDO"
 TEN_BOT = "KIDO Shopmate"
 TRANG_THAI = "Trợ lý AI · trả lời trong vài giây"
-LOI_CHAO = "Xin chào anh/chị, KIDO Shopmate là trợ lý chăm sóc khách hàng của KIDO, hỗ trợ anh/chị tra cứu chiết khấu, khuyến mãi, sản phẩm, đặt hàng, đổi trả và vận chuyển. Anh/chị cần hỗ trợ vấn đề gì? Hãy đặt câu hỏi để được giải đáp nhé!"
+LOI_CHAO = "Xin chào anh/chị, KIDO Shopmate là chatbox tự động của KIDO, hỗ trợ anh/chị tra cứu chiết khấu, khuyến mãi, sản phẩm, đặt hàng, đổi trả và vận chuyển. Anh/chị cần hỗ trợ vấn đề gì? Hãy đặt câu hỏi để được giải đáp nhé!"
 CAU_HOI_GOI_Y = [
    "Giá nhập sản phẩm và ưu đãi khi nhập số lượng lớn",
     "Chính sách giao hàng và điều kiện miễn phí vận chuyển",
